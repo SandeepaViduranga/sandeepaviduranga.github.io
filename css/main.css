@@ -3349,7 +3349,7 @@ hr {
 
 .filter-links a {
   margin-bottom: 20px;
-  margin-right: 35px;
+  margin-right: 0px;
   position: relative;
   display: inline-block;
   vertical-align: top;
@@ -6605,3 +6605,18 @@ a.wp-block-button__link {
     color: #c0c0c7;
   }
 }
+
+/* added by Sandeepa Viduranga 2024-11-06 */
+
+@media screen and (max-width: 782px) {
+  .filter-new{
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 782px) {
+  .filter-old{
+    display: none !important;
+  }
+}
+
