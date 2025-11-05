@@ -93,7 +93,7 @@ body {
   background: #21202e;
   font-size: 18px;
   color: #c0c0c7;
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica", Arial, sans-serif;
   font-weight: 400;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -105,21 +105,21 @@ body.no-scroll {
 }
 
 a {
-  color: #eb6165;
+  color: #017c91;
   text-decoration: none;
   cursor: pointer;
 }
 
 a:link {
-  color: #eb6165;
+  color: #017c91;
 }
 
 a:active {
-  color: #eb6165;
+  color: #017c91;
 }
 
 a:visited {
-  color: #eb6165;
+  color: #017c91;
 }
 
 a:hover {
@@ -137,7 +137,7 @@ img {
 input,
 textarea,
 button {
-  font-family: "Roboto";
+  font-family: "Helvetica", Arial, sans-serif;
 }
 
 label {
@@ -194,7 +194,7 @@ h4,
 h5,
 h6 {
   font-weight: 900;
-  font-family: "Roboto";
+  font-family: "Helvetica", Arial, sans-serif;
   margin: 0;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -277,7 +277,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #eb6165;
+  color: #017c91;
 }
 
 a.btn,
@@ -298,7 +298,7 @@ input[type="submit"] {
   line-height: 60px;
   text-align: center;
   text-decoration: none;
-  border: 2px solid #eb6165;
+  border: 2px solid #017c91;
   outline: none !important;
   box-shadow: none !important;
   cursor: pointer;
@@ -315,7 +315,7 @@ input[type="submit"] {
 }
 
 input[type="submit"] {
-  background-color: #eb6165;
+  background-color: #017c91;
 }
 
 a.btn:before,
@@ -362,7 +362,7 @@ textarea {
   display: block;
   width: 100%;
   height: 62px;
-  font-family: "Roboto";
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 18px;
   color: #FFF;
   resize: none;
@@ -396,7 +396,7 @@ label,
 legend {
   display: block;
   padding-bottom: 10px;
-  font-family: "Roboto";
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 18px;
 }
 
@@ -412,7 +412,7 @@ input[type="radio"] {
 
 label.error {
   padding-top: 5px;
-  font-family: "Roboto";
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 14px;
   color: red;
   display: none;
@@ -492,7 +492,7 @@ blockquote,
   margin: 50px 0;
   padding: 0 50px;
   padding-top: 35px;
-  font-family: "Roboto";
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 25px;
   line-height: 1.3;
   color: #FFF;
@@ -579,7 +579,7 @@ blockquote cite,
 .wp-block-quote.is-large cite,
 .wp-block-quote.is-style-large cite,
 .wp-block-pullquote cite {
-  font-family: "Yeseva One";
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 16px;
   font-style: normal;
   display: block;
@@ -710,7 +710,7 @@ blockquote cite br {
 
 .wp-block-calendar a {
   text-decoration: none;
-  color: #eb6165;
+  color: #017c91;
 }
 
 .wp-block-column p:first-child,
@@ -850,8 +850,8 @@ hr {
   text-align: center;
   text-decoration: none;
   overflow-wrap: break-word;
-  background-color: #eb6165;
-  border: 1px solid #eb6165;
+  background-color: #017c91;
+  border: 1px solid #017c91;
   border-radius: 28px;
   color: #fff;
   cursor: pointer;
@@ -872,8 +872,8 @@ hr {
 
 .is-style-outline .wp-block-button__link {
   background-color: transparent;
-  color: #eb6165;
-  border: 1px solid #eb6165;
+  color: #017c91;
+  border: 1px solid #017c91;
 }
 
 .post-content .wp-block-archives {
@@ -1092,7 +1092,7 @@ hr {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background: #eb6165;
+  background: #017c91;
   border-radius: 15px;
   -webkit-animation: spinner 0.75s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;
   animation: spinner 0.75s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;
@@ -1591,7 +1591,7 @@ hr {
 }
 
 .nav-menu-horizontal li a:hover {
-  color: #eb6165;
+  color: #017c91;
 }
 
 .nav-menu-horizontal li:hover>ul {
@@ -1719,7 +1719,7 @@ hr {
   vertical-align: top;
   font-size: 72px;
   line-height: 1;
-  font-family: "Yeseva One";
+  font-family: "Helvetica", Arial, sans-serif;
   color: #c0c0c7;
   text-decoration: none;
 }
@@ -1835,7 +1835,7 @@ hr {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  font-family: "Roboto";
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 40px;
   line-height: 1;
   font-weight: 900;
@@ -1849,7 +1849,7 @@ hr {
   top: 20px;
   width: 0;
   height: 4px;
-  background: #eb6165;
+  background: #017c91;
   transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
   -moz-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
   -webkit-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
@@ -1986,7 +1986,7 @@ hr {
 }
 
 .header .logo .logotype__title:first-letter {
-  color: #eb6165;
+  color: #017c91;
 }
 
 .header .logo .logotype__sub {
@@ -2110,7 +2110,7 @@ hr {
   bottom: -20px;
   width: 0;
   height: 4px;
-  background: #eb6165;
+  background: #017c91;
   transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
   -moz-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
   -webkit-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
@@ -2207,10 +2207,10 @@ hr {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  font-family: "Yeseva One";
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 152px;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 700;
   margin: 0;
   color: inherit;
 }
@@ -2227,7 +2227,7 @@ hr {
   display: inline-block;
   font-size: 1.25em;
   width: 0.55em;
-  color: #eb6165;
+  color: #017c91;
   font-style: normal;
 }
 
@@ -2418,7 +2418,7 @@ hr {
 .section.full-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
 .section.half-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   color: #FFF;
-  background: #eb6165;
+  background: #017c91;
 }
 
 .section.main-slider .swiper-pagination .swiper-pagination-bullet.enabled,
@@ -2470,7 +2470,7 @@ hr {
   top: 50%;
   width: 0;
   height: 4px;
-  background: #eb6165;
+  background: #017c91;
   transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
   -moz-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
   -webkit-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
@@ -2539,10 +2539,10 @@ hr {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  font-family: "Yeseva One";
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 112px;
   line-height: 0.9;
-  font-weight: 400;
+  font-weight: 700;
   margin: 0;
   color: inherit;
 }
@@ -2659,7 +2659,7 @@ hr {
 }
 
 .m-titles .m-category a {
-  color: #eb6165;
+  color: #017c91;
   font-weight: 700;
   text-decoration: none;
 }
@@ -2667,7 +2667,7 @@ hr {
 .m-titles .m-title {
   margin-top: 0;
   margin-bottom: 30px;
-  font-family: "Yeseva One";
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 54px;
   line-height: 1.3;
   color: #FFF;
@@ -2698,11 +2698,11 @@ hr {
   position: relative;
   margin-top: 0px;
   margin-bottom: 40px;
-  font-family: "Yeseva One";
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 152px;
   line-height: 1;
   color: #FFF;
-  font-weight: 400;
+  font-weight: 700;
   z-index: 2;
 }
 
@@ -2716,7 +2716,7 @@ hr {
 }
 
 .h-titles .h-subtitle.red {
-  color: #eb6165;
+  color: #017c91;
 }
 
 .h-titles .h-text {
@@ -2849,7 +2849,7 @@ hr {
 }
 
 .section.hero-started .title {
-  font-family: "Yeseva One";
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 152px;
   line-height: 1;
   color: #FFF !important;
@@ -2890,7 +2890,7 @@ hr {
   left: 0;
   bottom: -35px;
   width: 100%;
-  font-family: 'Mr De Haviland';
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 80px;
   line-height: 1;
   color: #FFF;
@@ -3008,14 +3008,14 @@ hr {
 .quote-box .name {
   font-size: 152px;
   line-height: 1;
-  font-family: "Yeseva One";
+  font-family: "Helvetica", Arial, sans-serif;
   color: #FFF;
   font-weight: 400;
 }
 
 .quote-box .label {
   font-size: 15px;
-  font-family: "Yeseva One";
+  font-family: "Helvetica", Arial, sans-serif;
   color: #FFF;
   font-weight: 400;
 }
@@ -3081,13 +3081,13 @@ hr {
 
 .experience-carousel .slide-titles .label {
   font-size: 25px;
-  color: #eb6165;
+  color: #017c91;
   font-weight: 900;
 }
 
 .experience-carousel .slide-titles .title {
   margin-bottom: 10px;
-  font-family: "Yeseva One";
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 152px;
   line-height: 1;
   font-weight: 400;
@@ -3386,7 +3386,7 @@ hr {
   width: 0;
   max-width: 60%;
   height: 4px;
-  background: #eb6165;
+  background: #017c91;
   transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
   -moz-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
   -webkit-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
@@ -3586,7 +3586,7 @@ hr {
 }
 
 .works-item .desc .category {
-  color: #eb6165;
+  color: #017c91;
   font-weight: 700;
   display: block;
 }
@@ -3977,7 +3977,7 @@ hr {
 }
 
 .c-list ul li strong {
-  color: #eb6165;
+  color: #017c91;
 }
 
 .c-list ul li a {
@@ -4356,7 +4356,7 @@ hr {
 
 .archive-item .desc .category {
   margin-bottom: 10px;
-  color: #eb6165;
+  color: #017c91;
   font-weight: 700;
 }
 
@@ -4407,7 +4407,7 @@ hr {
 .services-item .icon i {
   font-size: 72px;
   line-height: 72px;
-  color: #eb6165;
+  color: #017c91;
 }
 
 .services-item .name {
@@ -4517,7 +4517,7 @@ hr {
 }
 
 .team-item .desc .category {
-  color: #eb6165;
+  color: #017c91;
   font-weight: 700;
 }
 
@@ -4759,7 +4759,7 @@ a.page-numbers,
 
 a.page-numbers,
 .post-page-numbers {
-  border: 1px solid #eb6165;
+  border: 1px solid #017c91;
 }
 
 a.page-numbers.prev {
@@ -4780,7 +4780,7 @@ a.page-numbers.next .icon-arrow {
   right: 0;
   width: 30px;
   height: 2px;
-  background: #eb6165;
+  background: #017c91;
 }
 
 a.page-numbers.prev .icon-arrow:before,
@@ -4793,7 +4793,7 @@ a.page-numbers.next .icon-arrow:after {
   right: 0;
   width: 15px;
   height: 2px;
-  background: #eb6165;
+  background: #017c91;
   -ms-transform: rotate(35deg);
   transform: rotate(35deg);
   -webkit-transform: rotate(35deg);
@@ -4816,8 +4816,8 @@ a.page-numbers.current,
 a.post-page-numbers.current,
 .page-numbers.current,
 .post-page-numbers.current {
-  background: #eb6165;
-  border-color: #eb6165;
+  background: #017c91;
+  border-color: #017c91;
 }
 
 
@@ -4917,7 +4917,7 @@ input.search-submit,
   bottom: -20px;
   width: 30px;
   height: 4px;
-  background: #eb6165;
+  background: #017c91;
   -webkit-transition: opacity 0.3s linear, color 0.3s linear, -webkit-transform 0.3s cubic-bezier(0.3, 0, 0.3, 1);
   transition: opacity 0.3s linear, color 0.3s linear, -webkit-transform 0.3s cubic-bezier(0.3, 0, 0.3, 1);
   -o-transition: transform 0.3s cubic-bezier(0.3, 0, 0.3, 1), opacity 0.3s linear, color 0.3s linear;
@@ -4954,7 +4954,7 @@ input.search-submit,
 
 .content-sidebar ul li a:hover,
 .post-content .wp-block-archives li a:hover {
-  color: #eb6165;
+  color: #017c91;
   text-decoration: underline;
 }
 
@@ -5015,7 +5015,7 @@ input.search-submit,
 }
 
 .wp-block-calendar tfoot a {
-  color: #eb6165;
+  color: #017c91;
 }
 
 .content-sidebar a {
@@ -5043,7 +5043,7 @@ input.search-submit,
   top: 12px;
   width: 5px;
   height: 1px;
-  background: #eb6165;
+  background: #017c91;
 }
 
 .wp-block-rss {
@@ -5059,7 +5059,7 @@ input.search-submit,
 .content-sidebar ul li a.rsswidget,
 .wp-block-rss li a {
   display: block;
-  color: #eb6165;
+  color: #017c91;
   font-weight: 900;
   text-decoration: none;
 }
@@ -5105,7 +5105,7 @@ input.search-submit,
   color: #FFF;
   text-transform: none;
   text-decoration: none;
-  border: 1px solid #eb6165;
+  border: 1px solid #017c91;
 }
 
 .content-sidebar ul.menu {
@@ -5359,8 +5359,8 @@ small {
 }
 
 .share-post .share-btn:hover {
-  color: #eb6165;
-  border-color: #eb6165;
+  color: #017c91;
+  border-color: #017c91;
 }
 
 .share-post .share-btn span {
@@ -5452,7 +5452,7 @@ form.post-password-form label {
 }
 
 .post-password-form input[type="submit"] {
-  background-color: #eb6165;
+  background-color: #017c91;
   border: 0;
   border-radius: 5rem;
   color: #fff;
@@ -5588,7 +5588,7 @@ form.post-password-form label {
 
 .is-style-outline>.wp-block-button__link:not(.has-text-color),
 .wp-block-button__link.is-style-outline:not(.has-text-color) {
-  color: #eb6165;
+  color: #017c91;
 }
 
 a.wp-block-button__link {
@@ -5629,7 +5629,7 @@ a.wp-block-button__link {
 }
 
 .error-page__num {
-  color: #eb6165;
+  color: #017c91;
   font-size: 220px;
   display: block;
   height: auto;
@@ -5697,7 +5697,7 @@ a.wp-block-button__link {
   }
 
   .header.sticky {
-    background: #101017;
+    background: #000000;
   }
 
   .admin-bar .header.sticky {
@@ -6194,6 +6194,11 @@ a.wp-block-button__link {
     top: 10px;
   }
 
+  .header .logo {
+    float: none;
+    margin: 0 auto;
+  }
+
   .header.sticky {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -6205,7 +6210,7 @@ a.wp-block-button__link {
 
   /*sliders*/
   .section.main-slider .slide-titles .titles.center {
-    text-align: left;
+    text-align: center;
   }
 
   .section.main-slider .slide-titles .titles {
@@ -6831,7 +6836,7 @@ a.wp-block-button__link {
   .wp-block-quote.is-large cite,
   .wp-block-quote.is-style-large cite,
   .wp-block-pullquote cite {
-    font-family: 'Roboto';
+    font-family: "Helvetica", Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
   }
