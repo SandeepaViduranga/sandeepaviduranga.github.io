@@ -122,41 +122,46 @@
 		/**
 			Hero 1 Carousel
 		**/
-		var hero_1_slider = new Swiper('.main-slider .swiper-container', {
-			effect: 'fade',
-			speed: 1500,
-			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			},
-		    keyboard: true,
-		    mousewheel: false,
-		    preventInteractionOnTransition: true,
-			pagination: {
-				el: '.swiper-pagination',
-				clickable: true,
-					renderBullet: function (index, className) {
-					return '<span class="' + className + '">' + '0' + (index + 1) + '</span>';
-				},
-			},
-			on: {
-				init: function() {
-					var swiper = this;
-					
-					setTimeout(function(){
-						$('.main-slider .swiper-slide.swiper-slide-active').addClass('animate-active');
-					}, 500);
-
-				},
-				slideChange: function() {
-					var swiper = this;
-					that.moveSlider( swiper.realIndex );
-
-					$('.main-slider .swiper-slide').removeClass('animate-active');
-					$('.main-slider .swiper-slide').eq(swiper.realIndex).addClass('animate-active');
-				}
-			}
-		});
+    var hero_1_slider = new Swiper('.main-slider .swiper-container', {
+        effect: 'fade',
+        speed: 1500,
+        loop: true,
+        fadeEffect: { crossFade: true },
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+            waitForTransition: true
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        keyboard: true,
+        mousewheel: false,
+        preventInteractionOnTransition: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+                renderBullet: function (index, className) {
+                return '<span class="' + className + '">' + '0' + (index + 1) + '</span>';
+            },
+        },
+        on: {
+            init: function() {
+                $('.main-slider .swiper-slide.swiper-slide-active').addClass('animate-active');
+            },
+            slideChangeTransitionStart: function() {
+                var swiper = this;
+                $('.main-slider .swiper-slide').removeClass('animate-active');
+                $('.main-slider .swiper-slide.swiper-slide-active').addClass('animate-active');
+                that.moveSlider( swiper.realIndex );
+            },
+            slideChangeTransitionEnd: function() {
+                $('.main-slider .swiper-slide').removeClass('animate-active');
+                $('.main-slider .swiper-slide.swiper-slide-active').addClass('animate-active');
+            }
+        }
+    });
 
 		$('.main-slider .swiper-buttons > div').addClass('enabled');
 		$('.main-slider .swiper-pagination-bullet').addClass('enabled');
