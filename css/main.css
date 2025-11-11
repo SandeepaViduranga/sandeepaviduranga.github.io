@@ -1468,6 +1468,7 @@ hr {
 }
 
 .header .logo img {
+  margin-top: 10px !important;
   max-width: 100%;
   height: auto;
   transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
